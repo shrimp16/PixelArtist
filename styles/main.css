@@ -88,6 +88,33 @@ table {
 .color.blue {
   background-color: rgb(0, 0, 255);
 }
+.color.orange {
+  background-color: rgb(255, 145, 0);
+}
+.color.purple {
+  background-color: rgb(138, 43, 226);
+}
+.color.yellow {
+  background-color: rgb(255, 255, 0);
+}
+.color.indigo {
+  background-color: rgb(75, 0, 130);
+}
+.color.pink {
+  background-color: rgb(255, 0, 255);
+}
+.color.aqua {
+  background-color: rgb(0, 255, 255);
+}
+.color.grey {
+  background-color: rgb(111, 111, 111);
+}
+.color.brown {
+  background-color: rgba(35, 23, 9, 0.5);
+}
+.color.coffee {
+  background-color: rgb(75, 55, 28);
+}
 
 .grid {
   display: flex;
