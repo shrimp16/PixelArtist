@@ -1,4 +1,4 @@
-import Brush from "./brush.js";
+import Pallete from "./pallete.js";
 
 export default class Map {
 
@@ -18,9 +18,7 @@ export default class Map {
             html += '</div>'
         }
         this.body.innerHTML = html;
-        const brush = new Brush();
-        console.log(brush.tiles);
-        brush.setColor('blue');
+        new Pallete();
     }
 
 }
