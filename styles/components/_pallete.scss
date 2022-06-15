@@ -3,12 +3,11 @@
     height: 5rem;
     border: 3px maroon solid;
     background-color: rgba(186, 140, 99, 1);
+    position: inherit;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
+    margin-top: 37.625rem;
 }
 
 .pallete-row {
