@@ -1,3 +1,5 @@
+import Brush from "./brush.js";
+
 export default class Map {
 
     constructor() {
@@ -16,6 +18,9 @@ export default class Map {
             html += '</div>'
         }
         this.body.innerHTML = html;
+        const brush = new Brush();
+        console.log(brush.tiles);
+        brush.setColor('blue');
     }
 
 }
