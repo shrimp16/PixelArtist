@@ -1,4 +1,5 @@
 import Brush from "./brush.js";
+import { colors } from "./colors.js";
 
 export default class Pallete {
 
@@ -11,9 +12,7 @@ export default class Pallete {
     setup() {
         for(let i = 0; i < this.palleteColors.length; i++){
             this.palleteColors[i].addEventListener('click', () => {
-                console.log('xd');
-                console.log(this.brush.color);
-                this.brush.color = 'red';
+                this.brush.color = colors[i];
             })
         }
     }
