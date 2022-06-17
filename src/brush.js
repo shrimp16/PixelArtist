@@ -5,6 +5,8 @@ export default class Brush {
         this.colorView = document.getElementById('color');
         this.color = 'black';
         this.setup();
+
+        document.getElementById('save').addEventListener('click', this.saveDraw);
     }
 
     setup() {
@@ -13,6 +15,10 @@ export default class Brush {
                 this.tiles[i].style.backgroundColor = this.color;
             })
         }
+    }
+
+    saveDraw(){
+        localStorage.setItem('draw', document.getElementById('grid').innerHTML);
     }
 
 }
