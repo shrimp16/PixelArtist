@@ -2,6 +2,7 @@ export default class Brush {
 
     constructor() {
         this.tiles = document.getElementsByClassName('square');
+        this.colorView = document.getElementById('color');
         this.color = 'black';
         this.setup();
     }

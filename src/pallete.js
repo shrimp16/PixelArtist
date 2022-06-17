@@ -13,6 +13,7 @@ export default class Pallete {
         for(let i = 0; i < this.palleteColors.length; i++){
             this.palleteColors[i].addEventListener('click', () => {
                 this.brush.color = colors[i];
+                this.brush.colorView.style.backgroundColor = colors[i];
             })
         }
     }
