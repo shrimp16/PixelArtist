@@ -7,6 +7,7 @@ export default class Brush {
         this.setup();
 
         document.getElementById('save').addEventListener('click', this.saveDraw);
+        document.getElementById('load').addEventListener('click', this.loadDraw);
     }
 
     setup() {
@@ -19,6 +20,10 @@ export default class Brush {
 
     saveDraw(){
         localStorage.setItem('draw', document.getElementById('grid').innerHTML);
+    }
+
+    loadDraw(){
+        document.getElementById('grid').innerHTML = localStorage.getItem('draw');
     }
 
 }
