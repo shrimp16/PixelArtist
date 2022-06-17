@@ -1,13 +1,39 @@
-.pallete {
+.board {
     width: 20rem;
     height: 5rem;
     border: 3px black solid;
     background-color: rgba(186, 140, 99, 1);
-    position: inherit;
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 37.625rem;
+
+    &.small {
+        width: 5rem;
+    }
+
+    button {
+        width: fit-content;
+        margin: auto;
+        font-size: 1.5rem;
+        border: 1px black solid;
+        border-radius: 5px;
+        color: black;
+        background-color: white;
+
+        &:hover {
+            color: white;
+            background-color: black;
+        }
+    }
+}
+
+.brush {
+    border: 3px black solid;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    background-color: black;
 }
 
 .pallete-row {

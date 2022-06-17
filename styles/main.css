@@ -47,16 +47,41 @@ table {
   border-spacing: 0;
 }
 
-.pallete {
+.board {
   width: 20rem;
   height: 5rem;
   border: 3px black solid;
   background-color: rgb(186, 140, 99);
-  position: inherit;
   display: flex;
   flex-direction: column;
   margin: auto;
   margin-top: 37.625rem;
+}
+.board.small {
+  width: 5rem;
+}
+.board button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  font-size: 1.5rem;
+  border: 1px black solid;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+.board button:hover {
+  color: white;
+  background-color: black;
+}
+
+.brush {
+  border: 3px black solid;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  background-color: black;
 }
 
 .pallete-row {
@@ -138,4 +163,9 @@ table {
   width: 60rem;
   padding-bottom: 5px;
   margin: auto;
+}
+
+.user-options {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=main.css.map */
