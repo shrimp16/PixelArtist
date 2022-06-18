@@ -1,6 +1,6 @@
 # PixelArtist
 
-Simple web application where users can create pixel arts.
+Simple web application where users can create pixel arts and save them on their browser.
 
 # Technologies
   - VSCode
