@@ -17,9 +17,14 @@ git clone https://github.com/shrimp16/PixelArtist.git
 # Screenshots
 
 <p align="center">
- Color Pallete
+  <img src="./Screenshots/Screenshot_2.png">
 </p>
 
 <p align="center">
   <img src="./Screenshots/Screenshot_1.png">
 </p>
+
+<p align="center">
+  <img src="./Screenshots/Screenshot_3.png">
+</p>
+  
