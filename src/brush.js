@@ -4,13 +4,18 @@ export default class Brush {
         this.colorView = document.getElementById('color');
         this.color = 'black';
         this.setup();
+        this.cont = 1;
 
         document.getElementById('save').addEventListener('click', () => {
-            localStorage.setItem('draw', document.getElementById('grid').innerHTML);
+            let nrOfDraws = localStorage.length;
+            this.cont = 1;
+            localStorage.setItem(`draw${nrOfDraws + 1}`, document.getElementById('grid').innerHTML);
         });
         
         document.getElementById('load').addEventListener('click', () => {
-            document.getElementById('grid').innerHTML = localStorage.getItem('draw');
+            console.log(this.cont);
+            document.getElementById('grid').innerHTML = localStorage.getItem(`draw${this.cont}`);
+            this.cont++;
             this.setup();
         });
     }
