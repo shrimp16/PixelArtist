@@ -70,6 +70,8 @@ table {
   border-radius: 5px;
   color: black;
   background-color: white;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .board button:hover {
   color: white;
