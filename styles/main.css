@@ -170,4 +170,10 @@ table {
 .user-options {
   display: flex;
   flex-direction: row;
+}
+
+.custom-color {
+  height: 60px;
+  width: 60px;
+  margin: auto;
 }/*# sourceMappingURL=main.css.map */
