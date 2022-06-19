@@ -16,5 +16,11 @@ export default class Pallete {
                 this.brush.colorView.style.backgroundColor = colors[i];
             })
         }
+
+        document.getElementById('custom-color').addEventListener('input', () => {
+            console.log("color")
+            this.brush.colorView.style.backgroundColor = document.getElementById('custom-color').value;
+            this.brush.color = document.getElementById('custom-color').value;
+        })
     }
 }
