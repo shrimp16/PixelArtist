@@ -134,8 +134,8 @@ table {
 .color.grey {
   background-color: rgb(111, 111, 111);
 }
-.color.brown {
-  background-color: rgba(35, 23, 9, 0.5);
+.color.light-red {
+  background-color: rgba(255, 0, 0, 0.6);
 }
 .color.coffee {
   background-color: rgb(75, 55, 28);
