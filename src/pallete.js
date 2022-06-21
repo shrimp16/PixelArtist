@@ -17,6 +17,10 @@ export default class Pallete {
             })
         }
 
+        document.getElementById('color').addEventListener('click', () => {
+            document.getElementById('custom-color').click();
+        })
+
         document.getElementById('custom-color').addEventListener('input', () => {
             console.log("color")
             this.brush.colorView.style.backgroundColor = document.getElementById('custom-color').value;
